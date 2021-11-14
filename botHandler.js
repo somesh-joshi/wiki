@@ -1,4 +1,4 @@
-import { retrieveWikiPage } from './wikipedia'
+import { retrieveWikiPage } from './wikipedia.js'
 
 const parseAndReply = (userId, wikiJSON, bot) => {
   const pageArr = wikiJSON.query.pages
