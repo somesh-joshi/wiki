@@ -2,7 +2,7 @@ import express from 'express'
 import bodyParser from 'body-parser'
 import dotenv from 'dotenv'
 import TelegramBot from 'node-telegram-bot-api'
-import botHandler from './botHandler'
+import botHandler from './botHandler.js'
 
 dotenv.config()
 
